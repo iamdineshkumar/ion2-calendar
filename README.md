@@ -39,10 +39,6 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 `$ npm install ion2-calendar moment --save`
 
 If you install the package directly from a Git repository, the build step
-runs automatically via the `prepare` script. The build now uses `rimraf`
-to remove previous output so it works on Windows and Unix-like systems. Sass
-compilation now relies on the modern `sass` package instead of `node-sass`,
-ensuring compatibility with recent Node versions.
 
 ### Import module
 

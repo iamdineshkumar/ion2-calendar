@@ -35,9 +35,7 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 
 `$ npm install ion2-calendar moment --save`
 
-如果从 Git 仓库直接安装，`prepare` 脚本会自动执行编译步骤。
-构建过程使用 `rimraf` 清理旧的输出，在 Windows 和类 Unix 系统上都能正常工作。
-Sass 编译现已改用现代的 `sass` 包，兼容新版 Node.js。
+如果从 Git 仓库直接安装，`prepare` 脚本会自动执行编译步骤
 
 ### 引入模块
 
