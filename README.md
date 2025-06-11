@@ -26,7 +26,7 @@
 # Support
 
 - ionic-angular `^3.0.0` [2.x](https://github.com/HsuanXyz/ion2-calendar/tree/v2)
-- @ionic/angular `4.0.0`
+- Built with Angular `17` and @ionic/angular `^7.0.0`
 
 # Demo
 
@@ -37,6 +37,10 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 ### Installation
 
 `$ npm install ion2-calendar moment --save`
+
+If you install the package directly from a Git repository, the build step
+runs automatically via the `prepare` script. The build now uses `rimraf`
+to remove previous output so it works on Windows and Unix-like systems.
 
 ### Import module
 

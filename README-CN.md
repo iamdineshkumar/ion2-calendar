@@ -23,7 +23,7 @@
 # 支持
 
 - ionic-angular `^3.0.0` [2.x](https://github.com/HsuanXyz/ion2-calendar/tree/v2)
-- @ionic/angular `4.0.0`
+- 基于 Angular `17` 和 @ionic/angular `^7.0.0`
 
 # Demo
 
@@ -34,6 +34,9 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 ### 安装
 
 `$ npm install ion2-calendar moment --save`
+
+如果从 Git 仓库直接安装，`prepare` 脚本会自动执行编译步骤。
+构建过程使用 `rimraf` 清理旧的输出，在 Windows 和类 Unix 系统上都能正常工作。
 
 ### 引入模块
 
