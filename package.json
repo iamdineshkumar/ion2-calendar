@@ -6,7 +6,7 @@
   "typings": "./dist/index.d.ts",
   "scripts": {
     "start": "cd ./dev && npm start",
-    "clean:dist": "rm -rf dist",
+    "clean:dist": "rimraf dist",
     "demo:link": "npm link && cd ./demo && npm link ion2-calendar",
     "demo:serve": "cd ./demo && ionic serve",
     "build": "run-s clean:dist build:copy-sources build:compile-scss build:ts",
@@ -47,7 +47,8 @@
     "tslint": "~5.7.0",
     "tslint-eslint-rules": "^4.1.1",
     "typescript": "~5.2.0",
-    "zone.js": "~0.14.0"
+    "zone.js": "~0.14.0",
+    "rimraf": "^5.0.0"
   },
   "keywords": [
     "ionic2",
