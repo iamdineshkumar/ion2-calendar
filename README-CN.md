@@ -35,6 +35,8 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 
 `$ npm install ion2-calendar moment --save`
 
+如果从 Git 仓库直接安装，`prepare` 脚本会自动执行编译步骤。
+
 ### 引入模块
 
 ```typescript

@@ -38,6 +38,9 @@ live demo [click me](https://www-yefjsqmtmv.now.sh/).
 
 `$ npm install ion2-calendar moment --save`
 
+If you install the package directly from a Git repository, the build step
+runs automatically via the `prepare` script.
+
 ### Import module
 
 ```typescript
