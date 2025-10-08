@@ -4,8 +4,8 @@
     "declaration": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["dom", "es2017"],
-    "module": "commonjs",
+    "lib": ["dom", "ES2022"],
+    "module": "ES2022",
     "moduleResolution": "node",
     "noImplicitAny": true,
     "noUnusedLocals": true,
@@ -13,7 +13,9 @@
     "outDir": "./dist",
     "removeComments": false,
     "sourceMap": true,
-    "target": "es2020"
+    "target": "ES2022",
+    "useDefineForClassFields": false,
+    "skipLibCheck": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["demo/", "dist/", "lazyload-demo/", "node_modules", "lib/"],
